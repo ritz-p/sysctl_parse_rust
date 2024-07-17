@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  rust:
+    container_name: sysctl
+    build: .
+    tty: true
+    volumes:
+      - .:/workspace
